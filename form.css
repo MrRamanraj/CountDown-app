@@ -1,0 +1,188 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: url(The_Codding_Farm,_North_Attleborough_MA.jpg);
+    width: 100%; */
+}
+
+.image {
+    width: 30%;
+    height: 389px;
+    float: right;
+    border: 2px solid #4a4646;
+    margin-top: 97px;
+    /* margin: 5px; */
+    margin-right: 0px;
+}
+
+.bodysize {
+    position: relative;
+}
+
+.menu {
+    height: 46px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #cdcdcd;
+    position: fixed;
+    top: 0%;
+
+}
+
+.menu h1 {
+    position: fixed;
+    top: 6px;
+    left: 116px;
+
+}
+
+.Walah {
+    position: fixed;
+    top: 6px;
+    left: 165px;
+
+}
+
+.EmailWala {
+    border: 2px solid seagreen;
+
+}
+
+.Email-Walah {
+    position: fixed;
+    left: 485px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Number-Walah {
+    position: fixed;
+    left: 704px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    position: fixed;
+    left: 1021px;
+    top: 7px;
+    width: 8%;
+    height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #a8686891;
+    border-radius: 48%;
+    border: 2px solid thin;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(251, 245, 245);
+    color: rgb(7, 7, 7);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn a:hover {
+    color: rgb(13, 13, 13);
+}
+
+#navigation {
+    border: 2px solid #b39f9f;
+    position: fixed;
+    top: 5px;
+    height: 51px;
+    width: 100%;
+    background-color: #081323;
+    border-block-style: groove;
+    margin-top: 41px;
+}
+
+.unordered-list {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.nav-list {
+    margin: 1% 4%;
+    font-size: 136%;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0fbfb;
+}
+
+.nav-list a:hover {
+    color: #0edff4;
+}
+
+.sec {
+    background-image: url(Codding_Ct_1_sm.png);
+    width: 1262px;
+    height: 475px;
+    margin-top: 78px;
+}
+
+.table-sec {
+    margin: 60px 1PX;
+    margin-left: 1px;
+    width: 70%;
+    background-color: aliceblue;
+    margin-left: 0px;
+}
+
+.table-input {
+    margin: 10px 0px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-sec {
+    width: 70%;
+    height: 41px;
+    text-align: center;
+    margin: -58px 0px;
+
+}
+
+.btn5 {
+    width: 93px;
+    height: 27px;
+    background-color: black;
+    border-radius: 6px;
+    color: whitesmoke;
+}
+
+.btn5:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn5 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn5 a:hover {
+    color: black;
+}

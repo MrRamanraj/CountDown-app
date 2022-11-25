@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        .container {
+            margin: 5px;
+            padding: 40px;
+
+        }
+
+        .item {
+            margin: 12px 14px;
+            float: left;
+        }
+
+        #First {
+            color: rgb(8, 8, 8);
+            font-size: 48px;
+
+
+        }
+
+        .First {
+            list-style: none;
+
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: skyblue;
+            border-radius: 3px;
+
+            border-color: aqua;
+            border-radius: 3px;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 2px;
+        }
+
+        .navbar ul {
+            overflow: 5px;
+            float: right;
+        }
+
+        .navbar li a {
+            padding: 3px 20px;
+            text-decoration: none;
+            color: rgb(133, 132, 132);
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: rgb(5, 30, 30);
+
+        }
+
+        .btn {
+            background-color: rgba(18, 163, 220, 0.29);
+            padding: 6px;
+            color: rgb(224, 227, 227);
+            border-color: rgb(17, 232, 232);
+            border-style: ridge;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn a:hover {
+            color: rgb(30, 33, 32);
+
+        }
+
+        .sun1 {
+            cursor: pointer;
+            margin: auto 43px;
+        }
+
+        .sun1:hover {
+            background-color: rgb(239, 235, 235);
+            color: black;
+        }
+
+        .sun2 {
+
+            cursor: pointer;
+
+        }
+
+        .sun2:hover {
+            background-color: rgb(239, 235, 235);
+            color: black;
+        }
+
+        .btnsub {
+            max-width: 26%;
+            margin-left: 37%;
+            margin-top: 7px;
+        }
+    </style>
+</head>
+
+<body bgcolor="Skyblue">
+    <header>
+
+        <nav class="navbar">
+
+            <li id="First" class="First"><span>Pyramid</span> Tutorial</li>
+
+            <ul>
+
+                <li><a href="https://google.com">Home</a></li>
+
+                <li><a href="#">About</a></li>
+
+                <li><a href="#">Courses</a></li>
+
+                <li><a href="#">Contact Us</a></li>
+
+                <li><a href="#">Blog</a></li>
+
+                <button class="btn"><a href="#">Login</a> </button>
+
+                <button class="btn"><a href="#"> Signup</a></button>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <h2>Registration Form</h2> -->
+    <table border="1" align="center" class="table-sec" bgcolor="Pink">
+        <div class="container">
+            <tr>
+                <td>First Name</td>
+                <td> <input type="text" name="MyName" id="name" class="sun"></td>
+
+            </tr>
+            <tr>
+                <td>Middle Name</td>
+                <td><input type="text" name="MiddleName" id="Middle Name" class="sun"></td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="LastName" id="Last Name" class="sun"></td>
+            </tr>
+
+
+            <tr>
+
+                <td>Class</td>
+                <td> <input type="number" name="MyClass" id="class" class="sun"></td>
+
+            </tr>
+
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" name="MyDOB" id="DOB" class="sun"></td>
+            </tr>
+            <tr>
+                <td>Your Email</td>
+                <td><input type="email" name="MyEmail" id="email" class="sun"></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td> <input type="number" name="mobile" id="mobile" class="sun" required></td>
+            </tr>
+
+
+            <tr>
+                <td>Alt Mobile</td>
+                <td> <input type="number" name="mobile" id="mobile" class="sun" required></td>
+            </tr>
+            <tr>
+                <td>Your Address</td>
+                <td><textarea name="ruk" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td> Male <input type="radio" name="MyGender" id="Gender"> Female <input type="radio" name="MyGender"
+                        id="Gender"> Other <input type="radio" name="MyGender" id="Gender"></td>
+            </tr>
+
+
+    </table>
+    <div class="btnsub">
+        <input type="submit" value="SUBMIT NOW" class="sun1 sun btn">
+
+        <input type="reset" value="RESET NOW" class="sun2 sun btn">
+    </div>
+</body>
+
+</html>
